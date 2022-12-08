@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* border: 2px solid red; */
+    box-sizing: border-box;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+.container {
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top {
+    /* border: 1px solid green; */
+    width: 100%;
+    height: 33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3e72e7;
+    color: white;
+}
+
+.bottom {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 67%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.logo {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.logo h1{
+    padding-right:18px ;
+    text-align: end;
+    /* border: 1px solid black; */
+    width: 100%;
+    height: 40%;
+    font-size:28px;
+}
+.plus{
+    color: #e0df42 ;
+}
+a{
+    font-weight: 600;
+    color: white;
+    text-decoration : none ;
+    font-size: 14px;
+}
+.explore{
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 3px ;
+    width: 100%;
+    height: 50%;
+    padding-right: 20px;
+    font-size: 14px;
+}
+.search {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.search input{
+    border: none;
+    width: 85%;
+    height: 60%;
+    padding-left: 15px;
+}
+::placeholder{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    color: rgb(126, 123, 123);
+}
+.search i{
+    /* border: 1px solid black; */
+    height: 60%;
+    background-color:white ;
+    color: #3e72e7;
+    width: 15%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+}
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 12%;
+}
+button{
+    width: 75%;
+    height: 45%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    color: #3e72e7;
+    background-color: white;
+    border: none;
+    font-weight: 600;
+    box-shadow: 0;
+}
+.seller {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 13%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:arial;
+    font-size: 16px;
+}
+
+.more {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 7%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.more select{
+    /* width: 60%; */
+    font-family:arial ;
+    font-size: 16px;
+    border: none;
+    background-color: #3e72e7;
+    color: white;
+
+}
+.cart {
+    /* border: 1px solid red; */
+    height: 100%;
+    width: 8%;
+    padding-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart p{
+    font-family:arial ;
+    font-size: 16px;
+}
+.icon{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+.icon select{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow:intial;
+    border: none;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+figcaption{
+    display: flex;
+    justify-content: center;
+    /* flex-wrap: wrap; */
+    word-wrap:;
+}
+.icon9{
+    width: 15%;
+    text-align: center;
+    text-wrap: wrap;
+}
+.icon5{
+    width: 9%;
+}
+.icon3,.icon1,.icon2,.icon7,.icon8{
+    width: 8%;
+}
+.icon4{
+    width:10%;
+}
+.icon6{
+    width: 10%;
+}
